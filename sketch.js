@@ -91,7 +91,7 @@ function fruits()
   if(frameCount % 80===0)
     {
      Fruits = createSprite(400,200,20,20);
-     Fruits.scale = 0.2;
+     Fruits.scale = 0.00001;
   
      r=Math.round(random(1,4))
      if(r===1)
