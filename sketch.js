@@ -28,7 +28,7 @@ function preload()
 
 function setup()
 {
-  createCanvas(600,600);
+  createCanvas(550,550);
   
   Sword = createSprite(40,200,20,20);
   Sword.addImage(Sword_Image);
@@ -91,7 +91,7 @@ function fruits()
   if(frameCount % 80===0)
     {
      Fruits = createSprite(400,200,20,20);
-     Fruits.scale = 0.00001;
+     Fruits.scale = 0.2;
   
      r=Math.round(random(1,4))
      if(r===1)
