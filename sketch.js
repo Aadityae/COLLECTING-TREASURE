@@ -38,7 +38,7 @@ function setup()
   EnemyGroup = createGroup();
   
   Score=0;
-   // Sword.debug = true;
+    Sword.debug = true;
   Sword.setCollider("rectangle",0,0,40,60);
   
 }
