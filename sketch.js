@@ -28,7 +28,7 @@ function preload()
 
 function setup()
 {
-  createCanvas(700,700);
+  createCanvas(600,600);
   
   Sword = createSprite(40,200,20,20);
   Sword.addImage(Sword_Image);
